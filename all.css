@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* this is the css reset */
+body{
+	font-family: cursive;
+	background-image: url(images/bg_html.jpg)
+}
+#wrap{
+width:50%;
+height:1000px;
+margin:0 auto;
+}
+
+.header{
+padding:20px 0px 0px 0px ;
+}
+.header-right{
+float:right;
+}
+.logo{
+float:left;
+}
+
+.link{
+	float:right;
+}
+.nav{
+	float:right;
+	display:inline-block;
+	clear:both;
+}
+
+.nav > ul>li{
+	float:left;
+	padding:40px 0px 0px 40px;
+	font-family: cursive;
+	display:block;
+}
+.active{
+	color:#409fff;
+}
+a:visited{
+color:gray;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color:#409fff;
+}
+
+.content{
+	padding:30px 0px 30px 0px;
+	clear:both;
+	height:300px;
+}
+.content>.content-left{
+	float:left;
+}
+.content>.content-right{
+	float:left;
+	background-color: rgb(45, 45, 45);
+	width:24.3%;
+	padding:40px;
+	height:335px;
+	text-align: left;
+	font-family: cursive;
+}
+
+.content>.content-right>h2{
+	font-size:36px;
+	color:rgb(1, 165, 202);
+}
+
+.content>.content-right>p{
+	line-height: 1.5;
+	color:gray;
+	padding-top:20px;
+}
+
+.button{
+	color:white;
+	background-color: rgb(77, 77, 77);
+	padding:10px 10px 10px 10px;
+	margin-top: 40px;
+	text-align: center;
+	width:60%;
+}
+.content-main{
+	background-color: white;
+	margin-top: 100px;
+	padding:30px 20px 30px 20px;
+}
+
+.content-main> p{
+	line-height:2;
+}
+
+.content-main> p> span{
+		color:rgb(1, 165, 202);
+}
+
+.content-second{
+	padding:30px;
+	background-color: white;
+	margin-top:30px;
+	height:35%;
+}
+
+
+
+.content-second >  .events {
+	width:70%;
+	float:left;
+}
+.content-second > .events > .content-second-header{
+	width:100%;
+}
+.content-second > .events > .content-second-header > h3{
+	font-size:25px;
+}
+
+.content-second >.events>.content-second-header> h3 >span{
+	color:rgb(1, 165, 202);
+}
+
+.content-second > .events > .content-second-box {
+	float:left;
+	width:100%;
+}
+
+.content-second > .events > .content-second-box > .box1 {
+	float:left;
+}
+.content-second > .events > .content-second-box > .box1 >img{
+padding-top:10px;
+}
+
+.content-second > .events > .content-second-box > .box2 {
+	float:left;
+	width:65%;
+}
+.content-second > .events > .content-second-box > .box2 >h4{
+padding:10px 0px 10px 20px;
+float:left;
+font-weight: bold;	
+}
+
+.content-second > .events > .content-second-box > .box2 >p{
+	line-height: 1.5;
+	padding:0px 0px 0px 20px;
+	clear:both;
+}
+.content-second > .list{
+	width:30%;
+	float:left;
+}
+
+
+
+.content-second > .list >  h3{
+	font-size:25px;
+}
+
+.content-second > .list > h3 > span{
+	color:rgb(1, 165, 202);
+}
+
+.content-second > .list > ul {
+	padding:15px 0px 0px 0px ;
+}
+.content-second > .list > ul > li{
+	line-height: 2;
+	background-image:url(images/icon_03.png); 
+	background-repeat:no-repeat; 
+	background-position:0 0.9em; 
+	padding-left:12px; 
+}
+
+.content-second > .list > .search{
+	color:white;
+	background-color: gray;
+	text-align: center;
+	height:30px;
+	width:30%;
+	line-height: 30px;
+}
+
+.footer{
+	padding:30px;
+	margin:0 auto;
+	color:gray;
+	text-align: center;
+
+}
+.footer > h5{
+	font-size:18px;
+	font-weight: bold;
+}
+.footer > p {
+	display:block;
+	line-height: 3;
+}
+.footer > p> span {
+	color:rgb(1, 165, 202);
+}
